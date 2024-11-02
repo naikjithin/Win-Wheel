@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #007bffb8;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>NETAPP QUIZ WINNERS</h2>
+
+<table>
+  <tr>
+    <th></th>
+    <th>SlNo</th>
+    <th>UID</th>
+    <th>Name</th>
+  </tr>
+  <tr *ngFor="let user of data;let i=index">
+    <td></td>
+    <td>{{i+1}}</td>
+    <td>{{user.uid}}</td>
+    <td>{{user.name}}</td>
+  </tr>
+  
+  
+</table>
+
+</body>
+</html>

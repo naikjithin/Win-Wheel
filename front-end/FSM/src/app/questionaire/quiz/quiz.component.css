@@ -1,0 +1,23 @@
+.option {
+    margin-left: 15px;
+}
+
+#quizBtn {
+    margin-left: 20px;
+    background-color: yellow;
+}
+
+#reviewBtn {
+    margin-left: 20px;
+    background-color: orange;
+}
+
+#submitBtn {
+    margin-left: 20px;
+    background-color: green;
+}
+
+#quiz-name {
+    font-size: 60px;
+    color: #003b85;
+}

@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    width: 65% !important;
+    margin: 0 auto;
+}
+
+h2 {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}

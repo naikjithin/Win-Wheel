@@ -1,0 +1,21 @@
+.main {
+    height: 100vh;
+}
+
+/* @media (min-width: 1025px) {
+    ngx-gallery {
+        height: 1200px !important;
+        width: 1200px !important;
+    }
+} */
+
+
+ngx-gallery {
+    height: 970px !important;
+    width: 1910px !important;
+}
+
+ngx-gallery-thumbnails {
+    display: none !important;
+}
+
